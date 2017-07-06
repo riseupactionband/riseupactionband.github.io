@@ -30,6 +30,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
+    <script>
+    if (window.location.host.indexOf('riseupactionband') > -1 && window.location.protocol != "https:"){
+        window.location.protocol = "https";
+    }
+    </script>
 
 </head>
 
@@ -152,7 +157,7 @@
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row youtube-iframe">
               <div class="col-lg-6 col-sm-12 text-center">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/HyNIydb5yaU" frameborder="0" allowfullscreen></iframe>
               </div>

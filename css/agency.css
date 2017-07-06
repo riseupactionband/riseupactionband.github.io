@@ -689,3 +689,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #5e3668;
 }
+.youtube-iframe {
+  overflow: hidden;
+}
