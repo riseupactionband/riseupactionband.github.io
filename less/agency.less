@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
                 color: white;
                 &:hover,
                 &:focus {
-                    color: @theme-primary;
+                    color: darken(white, 10%);
                     outline: none;
                 }
             }
@@ -665,12 +665,12 @@ ul.social-buttons {
 
 ::-moz-selection {
     text-shadow: none;
-    background: @theme-primary;
+    background: pink;
 }
 
 ::selection {
     text-shadow: none;
-    background: @theme-primary;
+    background: pink;
 }
 
 img::selection {
@@ -682,10 +682,14 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: @theme-primary;
+    webkit-tap-highlight-color: pink;
 }
 
 // Custom
 .youtube-iframe {
   overflow: hidden;
+}
+
+.navbar-custom .nav .navbar-email-info a {
+  text-transform: lowercase;
 }
